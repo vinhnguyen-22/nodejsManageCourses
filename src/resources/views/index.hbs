@@ -1,0 +1,33 @@
+<h1>Mô HÌNH MVC</h1>
+<p>
+    Định nghĩa: mô hình MVC(model view controller) <br>
+    ưu điểm : là bóc tách dữ liệu và phân chia, trong các trường hợp ta có nhiều router
+</p>
+<ul>
+    <li>MODEL: là bộ phận chức năng lưu trữ dữ liệu ứng dụng. Là cầu nối giữa 2 thành phần bên dưới View, controller. Model thể hiện dưới hình thức cơ sở dữ liệu hoặc XML.</li>
+    <li>VIEW: show interfac. Nơi người dùng có thể lấy được thông tin của MVC thông qua các thao tác truy vấn như tìm kiếm hoặc sử dụng thông qua các thao tác truy vấn như search or sử dụng thông tin web <br>
+        INSTANCE: nút delete được tạo bởi view khi người dùng nhấn vào nút đó sẽ có một hành động trong controller 
+    </li>
+    <li>CONTROLLER: Bộ phận có niệm vụ xử lý các yêu cầu view. Từ đó,C đưa ra dữ liệu phù hợp với người dùng. Bên cạnh đó, Controller còn có chức năng kết nối với model. </li>
+</ul>
+<p>
+    Ví dụ: Chức năng thêm bài viết mới trong trang quản trị website. Nơi đây có 2 trường nhập về tiêu đề và nội dung bài viết, thì trong đó: <br>
+<ul>
+    <li>View sẽ hiển thị ra phần nhập form tiêu đề và nội dung.</li>
+    <li>Controller lấy dữ liệu từ 2 trường và gửi tới Model.</li>
+    <li>Model lúc này sẽ nhận dữ liệu từ Controller để lưu trữ trong cơ sở dữ liệu.</li>
+    <li>Mỗi bộ phận thực hiện chức năng nhất định, nhưng chúng có sự thống nhất, liên kết với nhau tạo nên mô hình MVC. Mô hình này tương đối nhẹ. Nó có thể tích hợp được nhiều tính năng có trong ASP.NET hiện giờ. Ví dụ như authentication (quá trình xác thực).</li>
+</ul>
+</p>
+<p>
+    <h3>giải thích mô hình MVC</h3>
+    khi ta npm run start thì nó sẽ khởi chạy file index và chọc vào listen port laoding ra dưới dạng web sever. Tiếp theo từ web sever, sẽ đọc hết các nội dung trong indexjs và chọc vào routes ở các app.(tên phương thức)(định nghĩa tuyến đường) <br>
+    <span>dispacher: là sau khi thực hiện hành động truy cập vào nếu khớp với function handler thì sẽ bắt đầu chạy dispacher sẽ chịu trách nhiệm thực thi handler</span>
+</p>
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
